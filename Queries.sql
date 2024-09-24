@@ -23,7 +23,7 @@ join Sales.SalesOrderHeader soh on soh.SalesOrderID=sod.SalesOrderID
 join Sales.SalesTerritory st on st.TerritoryID=soh.TerritoryID
 join Production.Product p on p.ProductID=sod.ProductID;
 -----HR Analysis-------
---Kaç yýldýr çalýþýyor kýdem(2006-2013), Yaþ, JobTitle, Gender
+--KaÃ§ yÃ½ldÃ½r Ã§alÃ½Ã¾Ã½yor kÃ½dem(2006-2013), YaÃ¾, JobTitle, Gender
 Select
 e.BusinessEntityID,
 JobTitle,
